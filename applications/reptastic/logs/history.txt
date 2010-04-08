@@ -1,0 +1,90 @@
+[07-Apr-2010 03:53PM]: Smark(1083).
+[07-Apr-2010 03:53PM]: Smark(1082) Reason for change: Reverting.
+[07-Apr-2010 04:07PM]: Smark(1083).
+[07-Apr-2010 04:08PM]: Smark(1083).
+[07-Apr-2010 04:09PM]: Smark(1083).
+[07-Apr-2010 04:16PM]: Smark(1088) Attendance.
+[07-Apr-2010 04:17PM]: Smark(1093) Attendance.
+[07-Apr-2010 04:17PM]: Smark(1098) Attendance.
+[07-Apr-2010 04:37PM]: Smark(1113) Reason for change: Reverting.
+[07-Apr-2010 04:39PM]: Smark(1083) Test.
+[07-Apr-2010 04:39PM]: Smark(1082) Reverting.
+[07-Apr-2010 06:51PM]: Malishka(473) Item refund.
+[07-Apr-2010 06:54PM]: Ankaa(546) Item: Black Bruise.
+[07-Apr-2010 07:02PM]: Smark(1088) Attendance.
+[07-Apr-2010 07:02PM]: Tingtsenro(1120) Attendance.
+[07-Apr-2010 07:02PM]: Mandall(1359) Attendance.
+[07-Apr-2010 07:02PM]: Sylmara(1116) Attendance.
+[07-Apr-2010 07:02PM]: Layli(1400) Attendance.
+[07-Apr-2010 07:02PM]: Aldrin(1286) Attendance.
+[07-Apr-2010 07:02PM]: Tomte(1028) Attendance.
+[07-Apr-2010 07:02PM]: Kettles(1320) Attendance.
+[07-Apr-2010 07:02PM]: Talinoril(1100) Attendance.
+[07-Apr-2010 07:02PM]: figgus(1334) Attendance.
+[07-Apr-2010 07:02PM]: foomoo(772) Attendance.
+[07-Apr-2010 07:02PM]: Zenali(1056) Attendance.
+[07-Apr-2010 07:02PM]: Cryam(1603) Attendance.
+[07-Apr-2010 07:02PM]: Nightwaker(1460) Attendance.
+[07-Apr-2010 07:02PM]: Malishka(577) Attendance.
+[07-Apr-2010 07:02PM]: Snaegl(1124) Attendance.
+[07-Apr-2010 07:02PM]: shadowstaff(1303) Attendance.
+[07-Apr-2010 07:02PM]: Elagost(1131) Attendance.
+[07-Apr-2010 07:02PM]: Veridus(1526) Attendance.
+[07-Apr-2010 07:02PM]: besiege(55) Attendance.
+[07-Apr-2010 07:02PM]: Ankaa(457) Attendance.
+[07-Apr-2010 07:02PM]: Kity(596) Attendance.
+[07-Apr-2010 07:02PM]: Tinnik(375) Attendance.
+[07-Apr-2010 08:59PM]: Aettis(50) Raid missed.
+[07-Apr-2010 08:59PM]: Murderd(100) Raid missed.
+[07-Apr-2010 09:00PM]: Oia(525) Raid missed.
+[07-Apr-2010 09:30PM]: Smark(1121) Progression.
+[07-Apr-2010 09:30PM]: Tingtsenro(1153) Progression.
+[07-Apr-2010 09:30PM]: Mandall(1392) Progression.
+[07-Apr-2010 09:30PM]: Sylmara(1149) Progression.
+[07-Apr-2010 09:30PM]: Layli(1433) Progression.
+[07-Apr-2010 09:30PM]: Aldrin(1319) Progression.
+[07-Apr-2010 09:30PM]: Tomte(1061) Progression.
+[07-Apr-2010 09:30PM]: Kettles(1353) Progression.
+[07-Apr-2010 09:30PM]: Talinoril(1133) Progression.
+[07-Apr-2010 09:30PM]: foomoo(805) Progression.
+[07-Apr-2010 09:30PM]: Zenali(1089) Progression.
+[07-Apr-2010 09:30PM]: Cryam(1636) Progression.
+[07-Apr-2010 09:30PM]: Nightwaker(1493) Progression.
+[07-Apr-2010 09:30PM]: Malishka(610) Progression.
+[07-Apr-2010 09:30PM]: Shera(508) Progression.
+[07-Apr-2010 09:30PM]: Snaegl(1157) Progression.
+[07-Apr-2010 09:30PM]: shadowstaff(1336) Progression.
+[07-Apr-2010 09:30PM]: Elagost(1164) Progression.
+[07-Apr-2010 09:30PM]: Veridus(1559) Progression.
+[07-Apr-2010 09:30PM]: reyoka(519) Progression.
+[07-Apr-2010 09:30PM]: besiege(88) Progression.
+[07-Apr-2010 09:30PM]: Ankaa(490) Progression.
+[07-Apr-2010 09:30PM]: Soliath(737) Progression.
+[07-Apr-2010 09:30PM]: Kity(629) Progression.
+[07-Apr-2010 09:30PM]: Tinnik(408) Progression.
+[07-Apr-2010 09:31PM]: Smark(1176) Finish.
+[07-Apr-2010 09:31PM]: Tingtsenro(1208) Finish.
+[07-Apr-2010 09:31PM]: Mandall(1447) Finish.
+[07-Apr-2010 09:31PM]: Sylmara(1204) Finish.
+[07-Apr-2010 09:31PM]: Layli(1488) Finish.
+[07-Apr-2010 09:31PM]: Aldrin(1374) Finish.
+[07-Apr-2010 09:31PM]: Tomte(1116) Finish.
+[07-Apr-2010 09:31PM]: Kettles(1408) Finish.
+[07-Apr-2010 09:31PM]: Talinoril(1188) Finish.
+[07-Apr-2010 09:31PM]: foomoo(860) Finish.
+[07-Apr-2010 09:31PM]: Zenali(1144) Finish.
+[07-Apr-2010 09:31PM]: Cryam(1691) Finish.
+[07-Apr-2010 09:31PM]: Nightwaker(1548) Finish.
+[07-Apr-2010 09:31PM]: Malishka(665) Finish.
+[07-Apr-2010 09:31PM]: Shera(563) Finish.
+[07-Apr-2010 09:31PM]: Snaegl(1212) Finish.
+[07-Apr-2010 09:31PM]: shadowstaff(1391) Finish.
+[07-Apr-2010 09:31PM]: Elagost(1219) Finish.
+[07-Apr-2010 09:31PM]: Veridus(1614) Finish.
+[07-Apr-2010 09:31PM]: reyoka(544) Finish.
+[07-Apr-2010 09:31PM]: Ankaa(545) Finish.
+[07-Apr-2010 09:31PM]: Soliath(792) Finish.
+[07-Apr-2010 09:31PM]: Kity(684) Finish.
+[07-Apr-2010 09:31PM]: Tinnik(463) Finish.
+[07-Apr-2010 09:54PM]: Murderd(100) Signup bonus removed.
+[07-Apr-2010 09:54PM]: Oia(525) Signup bonus removed.

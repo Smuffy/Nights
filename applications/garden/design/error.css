@@ -1,0 +1,38 @@
+@import url('reset.css');
+
+
+/* ============================================== General Styles & Typography */
+body {
+   color: #000;
+   font: 75%/1.7em "Helvetica Neue",Helvetica,arial,sans-serif;
+   margin: 0;
+   padding: 0;
+   font-size: small;
+   background: #ffffff;
+	background: #c2e6fc url(slicesplash.jpg) no-repeat scroll center top;
+}
+.SplashInfo {
+	margin: 80px 0;
+	border-top: 1px solid #A4CFE6;
+	border-bottom: 1px solid #A4CFE6;
+	background: #E0F4FF;
+}
+.SplashInfo h1 {
+   font-weight:bold;
+	text-shadow: #fff 0 1px 0;
+	text-align: center;
+	border-top: 1px solid #fff;
+	color:#02455B;
+	font-size:300%;
+   margin: 0 0 10px;
+	padding: 20px 0 0;
+}
+.SplashInfo p {
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	margin: 0;
+	padding: 0 0 10px;
+	color: #076C8E;
+	font-size: 20px;
+   line-height: 1.6em;
+}

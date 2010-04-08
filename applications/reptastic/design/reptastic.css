@@ -1,0 +1,167 @@
+#Content { width: 960px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 10px 0; }
+div.clearfix { height: 1px; clear: both; }
+
+a.epic { color: #832bce; font-weight: bold !important; }
+
+ul.Reputation { list-style: none; }
+ul.Reputation li { display: block; float: left; width: 118px; margin: 8px; border: 1px solid #000; -moz-border-radius: 5px; -webkit-border-radius: 5px; background-color: #212121; opacity: 0.85; }
+ul.Reputation li:hover, ul.Reputation li.MyCharacter { opacity: 1; }
+
+/* class colors */
+ul.Reputation li.Death.Knight p { color: #c41f3b; }
+ul.Reputation li.Druid p { color: #ff7d0a; }
+ul.Reputation li.Hunter p { color: #abd473; }
+ul.Reputation li.Mage p { color: #6acbef; }
+ul.Reputation li.Paladin p { color: #f58cba; }
+ul.Reputation li.Priest p { color: #fff; }
+ul.Reputation li.Rogue p { color: #fff569; }
+ul.Reputation li.Shaman p { color: #2459ff; }
+ul.Reputation li.Warlock p { color: #9482c9; }
+ul.Reputation li.Warrior p { color: #c79c6e; }
+
+ul.Reputation li.Death.Knight { background: #212121 url('dk.png') no-repeat center; }
+ul.Reputation li.Druid { background: #212121 url('druid.png') no-repeat center; }
+ul.Reputation li.Hunter { background: #212121 url('hunter.png') no-repeat center; }
+ul.Reputation li.Mage { background: #212121 url('mage.png') no-repeat center; }
+ul.Reputation li.Paladin { background: #212121 url('paladin.png') no-repeat center; }
+ul.Reputation li.Priest { background: #212121 url('priest.png') no-repeat center; }
+ul.Reputation li.Rogue { background: #212121 url('rogue.png') no-repeat center; }
+ul.Reputation li.Shaman { background: #212121 url('shaman.png') no-repeat center; }
+ul.Reputation li.Warlock { background: #212121 url('warlock.png') no-repeat center; }
+ul.Reputation li.Warrior { background: #212121 url('warrior.png') no-repeat center; }
+
+ul.Reputation li.cloth, p span.cloth { background-color: #c8e7f9; }
+ul.Reputation li.leather, p span.leather { background-color: #d3e8c1; }
+ul.Reputation li.mail, p span.mail { background-color: #f1d1da; }
+ul.Reputation li.plate, p span.plate { background-color: #fedbb6; }
+ul.Reputation li.all, p span.all { background-color: #ddd; }
+
+ul.Reputation li.inactive { background: #fff; border: 1px solid #ddd; }
+ul.Reputation li.inactive h3 { padding-top: 5px; }
+ul.Reputation li.inactive h3.inactive { color: #999; }
+ul.Reputation li.inactive p { color: #ccc; font-weight: normal; font-size: 20px; }
+ul.Reputation li.inactive small { margin-bottom: 5px; }
+
+ul.Reputation li h3 { display: block; height: 25px; font-size: 17px; background-repeat: no-repeat; color: #fff; background-position: center 10px; text-align: center; padding: 10px 0 0; margin: 0; text-transform: capitalize; }
+ul.Reputation li h3 a { display: block; height: 25px; font-size: 17px; background-repeat: no-repeat; color: #fff; background-position: center 10px; text-align: center; padding: 0; margin: 0; text-transform: capitalize; }
+    ul li h3.Death.Knight { color: #c41f3b; }
+    ul li h3.Druid { color: #ff7d0a; }
+    ul li h3.Hunter { color: #abd473; }
+    ul li h3.Mage { color: #6acbef; }
+    ul li h3.Paladin { color: #f58cba; }
+    ul li h3.Priest { color: #000; }
+    ul li h3.Rogue { color: #eee01f; }
+    ul li h3.Shaman { color: #2459ff; }
+    ul li h3.Warlock { color: #9482c9; }
+    ul li h3.Warrior { color: #c79c6e; }
+ul.Reputation li p { text-align: center; font-weight: bold; font-size: 40px; padding: 0; margin: 0; line-height: 40px; height: 40px; }
+ul.Reputation li p input.Rep { border: none; background: none; font-size: 40px; padding: 0; margin: -5px 0 0; line-height: 40px; text-align: center; width: 110px; height: 40px; }
+ul.Reputation li small { display: block; text-align: center; font-size: 10px; color: #7eff00; margin: -2px 0 10px; padding: 0; }
+ul.Reputation li small span.Yellow { color: #d8ff00; }
+ul.Reputation li small span.Red { color: #FF0000; }
+ul.Reputation li small span.Orange { color: #ffa800; }
+ul.Reputation li small a.Button { display: block; margin: 5px auto; width: 100px; font-weight: bold; padding: 0; color: #464646; }
+input.Button { margin: 5px; width: 100px; }
+ul.Reputation li small input.Deactivate, input.Button.Inactive { opacity: 0.5; cursor: default; }
+input.Button.Inactive:hover { border: 1px solid #bbb; }
+ul.Activities li h3 label small { font-size: 10px; color: #464646; margin-left: 5px; }
+
+ul.Activities li.Activity { padding: 5px; }
+ul.Activities li.Activity.Winner { background: #daf7d9; }
+ul.Activities li.Activity.Winner:hover { background: #ff0000; color: #fff; }
+ul.Activities li.Activity.Winner:hover strong, ul.Activities li.Activity.Winner:hover strong.Title { color: #fff; }
+ul.Activities li.Activity.Winner:hover div.Meta { color: #fff; }
+ul.Activities li.Activity.Winner:hover div.Story { background: #feebed; border: 1px solid #e48e9c; }
+ul.Activities li.Activity.Winner.Favored:hover { background: #31c51d; }
+ul.Activities li.Activity.Winner.Favored:hover div.Story { background: #eefeeb; border: 1px solid #9fe48e; }
+ul.Activities li.Activity.Winner div.Story { background: #eefeeb; border: 1px solid #9fe48e; }
+ul.Activities li.Activity.Winner div.Extras a { display: inline-block; padding: 8px; font-size: 12px; color: #832bce; font-weight: bold; }
+ul.Activities li.Activity.Winner div.Extras a:hover { text-decoration: underline; }
+ul.Activities li.Activity.Winner textarea.Script { width: 935px; height: 20px; background: none; border: none; font-size: 12px; }
+ul.Activities li.Favored { background: #feebed; }
+ul.Activities li.Favored strong.Title { color: #ff0000; }
+ul.Activities li.Activity.Winner strong.Title { color: #000; }
+ul.Activities li.Activity div { padding: 0; }
+ul.Activities li.Activity div.Story { padding: 4px; }
+ul.Activities li.Activity strong { font-weight: bold; text-transform: capitalize; }
+ul.Activities li.Activity.List { display: block; width: 135px; float: left; margin: 5px; clear: none; border: 1px solid #ddd; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+ul.Activities li.Activity h3 label { text-transform: capitalize; width: 100%; padding: 5px; display: block; font-weight: bold; }
+ul.Activities li.Activity.List h3 label small { display: block; padding: 0 0 0 25px; line-height: 12px;  margin: 0; font-weight: normal; color: #999; }
+ul.Activities li.Activity.List h3 label small strong { font-weight: bold; color: #212121; }
+
+ul.EditCharacter li { padding: 10px; border-bottom: 1px solid #ddd; }
+ul.EditCharacter li label { display: inline-block; width: 200px; text-align: right; padding: 5px; }
+ul.EditCharacter li.Checkboxes label { margin-left: 200px; text-align: left; width: auto; }
+ul.EditCharacter li.Class label { text-align: center; width: auto; font-size: 18px; font-weight: bold; }
+ul.EditCharacter li.Class label.RadioLabel { margin: 5px; text-align: left; width: 70px; font-size: 12px; font-weight: normal; display: inline-block; border: 1px solid #caf0fe; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #e9f9ff; }
+ul.EditCharacter li.Class div.ClassList { display: inline-block; }
+div.Save { margin-left: 200px; }
+div.Save input.button { display: inline-block; }
+
+ul.Activities li.Activity { position: relative; }
+.Capitalize { text-transform: Capitalize; }
+ul.Activities li.Activity div.Extras { position: absolute; top: 0; right: 0; padding: 0 2px; }
+ul.Activities li.Activity:hover { background: #f1f1f1; }
+ul.Activities li.Activity.NoHover:hover { background: #fff; }
+ul.Activities li.Activity a.Button { display: block; width: 30px; float: right; text-align: center; height: 13px; padding: 0 0 10px; }
+ul.Activities li.Activity select.Tardy {  }
+ul.Activities li.Activity div.Extras input.Button { width: 45px; }
+ul.Activities li.Activity div.Raider { position: absolute; left: 150px; width: 400px; float: left; }
+strong.Badge { display: inline-block; font-size: 12px; line-height: 12px; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #464646; color: #fff; padding: 5px 0; width: 45px; text-align: center; }
+    strong.Death.Knight { background-color: #c41f3b; }
+    strong.Druid { background-color: #ff7d0a; }
+    strong.Hunter { background-color: #abd473; }
+    strong.Mage { background-color: #6acbef; }
+    strong.Paladin { background-color: #f58cba; }
+    strong.Priest { background-color: #000; }
+    strong.Rogue { background-color: #eee01f; }
+    strong.Shaman { background-color: #2459ff; }
+    strong.Warlock { background-color: #9482c9; }
+    strong.Warrior { background-color: #c79c6e; }
+
+div.Center.Administration form { float: left; }
+div.Center.Administration form.PadRight { margin-right: 20px; }
+div.Center.Administration input.Button.Right { float: left; font-weight: bold; color: #212121; }
+div.Right input.Button.FloatLeft { float: left; }
+
+h1 span { display: inline-block; font-size: 12px; line-height: 12px; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #21cb14; color: #fff; padding: 5px; float: right; }
+h1 span.None { background: #ff0000; }
+
+h2 span.Reset { float: right; display: inline-block; padding: 5px; background: none; font-size: 12px; }
+
+div.Body { margin: -5px 0 0; padding: 5px; background: #f5fcff; }
+div.Body .Updated { font-size: 11px; font-weight: bold; color: #464646; display: inline-block; float: right; margin: -30px 5px 5px 5px; }
+div.Body div.Column { width: 425px; float: left; margin: 0 40px 0 0; padding: 5px; }
+div.Body div.Column.NoMargin { margin-right: none; }
+
+div.Body h1 { border-bottom: none; padding: 10px 0; font-size: 24px; font-weight: normal; text-align: center; font-family: Georgia, serif; line-height: 24px; }
+div.Body h3 { margin: 25px 0 10px 0; text-align: center; font-family: Georgia, serif; font-size: 20px; line-height: 20px; }
+div.Body p { padding: 0; margin: 0; line-height: 21px; font-size: 15px; text-indent: 20px; font-family: Georgia, serif; color: #212121; }
+div.Body ul { list-style: disc; margin: 10px 0 15px 40px; }
+div.Body ul li { font-family: Georgia, serif; font-size: 15px; line-height: 21px; }
+
+div.Body p.Note { text-indent: 0; margin: 0 0 15px; font-size: 12px; font-weight: normal; color: #464646; }
+
+div.Body table { width: 100%; border-collapse: collapse; margin: 10px 0; font-family: Georgia, serif; font-size: 15px; line-height: 21px; }
+div.Body table th { border-bottom: 1px solid #b4b4b4; padding: 5px; }
+div.Body table td { padding: 5px; color: #464646; background: #e9f9ff; }
+div.Body table tr.odd td { background: #fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

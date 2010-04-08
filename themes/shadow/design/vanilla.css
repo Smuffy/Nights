@@ -1,0 +1,619 @@
+/*
+Welcome to the Vanilla CSS File! Some things you should know:
+
+1. There is a style.css file that is also included on every page of Vanilla. It
+   defines the common classes on all user-facing pages, including the user
+   profile page, activity page, and search results page.
+   
+2. This css file will be included on all Vanilla pages. Those pages are:
+   + Discussions (All Discussions, Bookmarks, Your Discussions, etc)
+   + Drafts
+   + Categories
+   + Comments
+   + Start a New Discussion Form
+   + Add a Comment Form
+
+3. This file is broken down into the following sections:
+   + Line 27:     Panels / Sidebars
+   + Line 59:     Discussions
+   + Line 164:    Categories
+   + Line 202:    Comments
+   + Line 430:    Drafts
+   + Line 471:    Discussion & Comment Forms
+*/
+
+
+
+/* ======================================================== Panels / Sidebars */
+#Panel a.Bookmark,
+a.NewDiscussion {
+   padding: 6px 0;
+   display: block;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   background: #4986aa /* Banner Background Color */;
+   color: #fff /* Banner Font Color */;
+   text-decoration: none;
+   margin: 0 0 10px 0;
+   text-shadow: 0 1px 0 #30ACD6;
+}
+a.NewDiscussion:hover {
+   background: #11e420 /* Menu Hover Background Color */;
+   color: #fff /* Menu Hover Font Color */;
+   text-shadow: 0 1px 0 #01c400;
+}
+#Panel a.Bookmark {
+   background: #9f0;
+   color: #fff;
+}
+#Panel a.Bookmark:hover {
+   background: #ff6b39;
+   color: #fff;
+}
+#Panel ul.Discussions {
+   border: 0;
+}
+
+/* ============================================================== Discussions */
+
+/* Note: DataList is used in search results, vanilla discussions & drafts */
+ul.DataList li {
+   margin: 0;
+   padding: 0 0 4px 0;
+   border-bottom: 1px solid #dbe3e6;
+}
+ul.DataList li li {
+   border: 0;
+   padding: 0;
+}
+ul.DataList,
+ul.DataList li ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ul.DataList li ul li.Title {
+   float: left;
+   width: 560px;
+}
+ul.DataList li ul li.Meta {
+   clear: both;
+}
+ul.DataList li ul li.Title a {
+   border: 1px solid #eee;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   background: #fafafa;
+   margin: 4px 0;
+   padding: 2px 8px;
+   line-height: 130%;
+   color: #2b3033;
+   font-size: 105%;
+   display: block;
+   clear: left;
+}
+ul.DataList li ul li.Title strong {
+   display: block;
+   padding: 6px 0 0 6px;
+   margin: 0;
+   font-size: 110%;
+   font-weight: bold;
+}
+ul.DataList li ul li.Title strong a {
+   display: inline;
+   border: 0;
+   padding: 0;
+   margin: 0;
+   color: #2786C2 /* Body Link Font Color */;
+   background: none;
+}
+ul.DataList li ul li.Meta {
+   font-family: 'lucida grande';
+   margin-left: 5px;
+   font-size: 80%;
+   color: #80828c /* Meta Label Font Color */;
+}
+ul.DataList li ul li.Meta span,
+ul.DataList li ul li.Meta span a,
+ul.DataList li ul li.Meta strong {
+   margin-right: 12px;
+}
+ul.DataList li ul li.Meta strong {
+   background: #ff0;
+   padding: 2px 4px;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+}
+ul.DataList li ul li.Meta a {
+   color: #2b2d33 /* Meta Font Color */;
+}
+body.Discussions h1 {
+   margin: 0;
+}
+li.DiscussionRow ul.Discussion {
+   /* Fixes an IE7 Spacing issue */
+   display: inline !important;
+}
+ul.Announcements {
+   padding: 0 0 20px;
+}
+/* Note: The Vanilla Discussion List has the following classes applied to
+  individual list elements and can be styled:
+  + Bookmarked: the user has bookmarked that topic
+  + Announcement: the discussion has been announced
+  + Mine: the user created the discussion
+  + New: there are new comments since the last viewed the discussion
+*/
+.Mine { background: #F5FCFF /* Discussion My Background Color */; }
+li.New { background: #ffd /* Discussion New Background Color */; }
+ul.DataList li ul li.Meta a.Category {
+   background: #fafafa;
+   padding: 2px 4px;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+}
+ul.DataList li.Mine ul li.Meta a.Category {
+   background: #fafdff;
+}
+ul.DataList li.New ul li.Meta a.Category {
+   background: #ffe;
+}
+
+/* =============================================================== Categories */
+.Categories {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+body.Categories h1,
+body.Categories #Content h2 {
+   margin: 0;
+}
+h1 span {
+   color: #555 /* Body Text Font Color */;
+   padding: 0 4px;
+   font-size: 70%;
+}
+body.Categories h1 a {
+   color: #000;
+}
+body.Categories li h1 small { 
+   font-size: 11px; 
+   font-weight: normal; 
+   color: rgba(0,0,0,0.6); 
+   margin-left: 15px;
+}
+ul.Categories li { margin-bottom: 15px; }
+ul.Categories li ul li { margin-bottom: 0; }
+/* Note: This "More" style is custom to the categories page. It appears like
+  the MorePager listed above, but it is just a link to a different page. */
+.More {
+   list-style: none;
+   margin: 1px 0 20px;
+   padding: 3px 6px;
+   text-align: right;
+   background: #e9f9ff;
+   }
+.More a {
+   font-size: 13px;
+   font-weight: bold;
+   text-align: right;
+}
+.More a:hover {
+   color: #2786c2 !important;
+   text-decoration: underline;
+}
+
+
+/* ================================================================= Comments */
+body.Discussion #Content {
+   margin-bottom: 20px;
+}
+body.Discussion #Content h2 {
+   font-size:140%;
+   font-weight:bold;
+   margin: 0;
+   color: #333;
+   padding: 6px 0;
+   line-height: 1.2;
+}
+body.Discussion #Content h2 span {
+   padding: 0 10px;
+   color: #777;
+   font-size: 12px;
+}
+.Preview,
+.Preview li,
+.Preview ul,
+.Preview ul li,
+#Discussion,
+#Discussion li,
+#Discussion ul,
+#Discussion ul li {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#Discussion {
+   margin-bottom: 1px;
+}
+#Discussion .Comment {
+   border-bottom: 1px solid #ddd;
+}
+/* Note: Fixes IE 7 Glitch */
+*:first-child+html #Discussion .Comment {
+   overflow: hidden;
+}
+.Preview li ul.Info,
+#Discussion li ul.Info {
+   font-family: 'lucida grande';
+   font-size: 11px;
+   color: #777 /* Meta Label Font Color */;
+   padding: 8px 0 0 8px;
+}
+.Preview li ul.Info {
+   padding: 0;
+}
+.Preview li ul.Info li.Author img,
+#Discussion li ul.Info li.Author img {
+   height: 40px;
+   width: 40px;
+   border: 0;
+   margin: 0 10px 0 0;
+   float: left;
+   overflow: hidden;
+   background: #eee;
+}
+.Preview li ul.Info li,
+#Discussion li ul.Info li {
+   display: inline;
+   line-height: 2.5;
+}
+.Preview li ul.Info li.Created,
+#Discussion li ul.Info li.Created,
+#Discussion li ul.Info li.Permalink {
+   padding-left: 10px;
+}
+.Preview li ul.Info li.Author a,
+#Discussion li ul.Info li.Author a {
+   font-size: 15px;
+   font-weight: bold;
+}
+.Preview li .Body,
+#Discussion li .Body {
+   clear: both;
+   padding: 1px 8px 2px;
+   line-height: 140%;
+   font-size: 100%;
+}
+.Body h3 { margin: 0.5em 0 0; }
+.Body h5 { margin: 0.5em 0 0; }
+.Body h4 { margin: 0.5em 0 0; }
+.Body p {
+   font-family: 'Helvetica', sans-serif;   
+   margin: 1em 0;
+}
+.Body blockquote {
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   padding: 4px 16px;
+   margin: 4px 0;
+   background: #ffc;
+}
+.Body code,
+.Body pre {
+   display: block;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   background: #ff9;
+   padding: 4px 8px;
+   white-space: pre;
+   font-family: monospace;
+   overflow: auto;
+}
+.Body strong {
+   font-weight: bold;
+}
+.Body em {
+   font-style: oblique;
+}
+.Body table { 
+   border-collapse: collapse;
+   width: 100%;
+   margin-bottom: 15px;
+}
+.Body table th {
+  background: none;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #9be7ff;
+}
+.Body table td {
+   padding: 8px 5px;
+   background: #fff;
+   border-bottom: 1px solid #9be7ff;
+}
+.Body table tr.odd td {
+   background: #e8f9ff;
+}
+.Comment .Body ul,
+.Comment .Body ol {
+    margin-left: 3em ! important;
+}
+.Comment .Body ol li {
+  list-style: decimal ! important;
+}
+.Comment .Body ul li {
+  list-style: disc ! important;
+}
+#Discussion fieldset,
+#Discussion form {
+   margin: 0;
+   padding: 0;
+}
+div.Popup .Preview {
+   margin: 4px 10px 10px;
+}
+div.Popup .Preview h2 {
+   background: none;
+   border-bottom: 1px solid #bbb;
+   color: #000;
+   margin: 0 0 8px;
+}
+div.Popup ul.Preview li.Comment {
+   padding: 0;
+}
+div.Popup ul.Preview li.Comment div.Body {
+   min-height: 53px;
+}
+/* Note: CommentOption is presented to the user in place of the add comment form
+   when they don't have a valid session. */
+.CommentOption {
+   margin: 1px 0 0;
+   padding: 3px 6px;
+   background: #e9f9ff;
+   color: #555 /* Body Text Font Color */;
+}
+/* Note: Back appears the same as MorePager... */
+.Back {
+   margin: 0;
+   padding: 3px 6px;
+   text-align: right;
+   background: #e9f9ff /* Panel Background Color */;
+   margin-top: 1px;
+   margin-bottom: 6px;
+   }
+.Back a {
+   color: #2786C2 /* Panel Font Color */;
+   font-size: 12px;
+   font-weight: normal;
+   text-align: right;
+}
+.Back a:hover {
+   color: #2786c2 /* Panel Font Color */ !important;
+   text-decoration: underline;
+}
+.Back {
+   text-align: left;
+   -moz-border-radius-bottomright: 2px;
+   -moz-border-radius-bottomleft: 2px;
+   -webkit-border-bottom-right-radius: 2px;
+   -webkit-border-bottom-left-radius: 2px;
+}
+/*
+  Note: Discussion & Comment Option (dropdown) Menu customizations. The layout
+  css for these is in /applications/garden/design/menu.css. Override them here.
+*/
+a.Bookmark,
+a.Bookmarking {
+   float: right;
+   display: block;
+   background: url('star_light.png') center center no-repeat;
+   height: 22px;
+   width: 22px;
+   margin: 2px 2px 0 4px;
+}
+a.Bookmark span,
+a.Bookmarking span {
+   display: none;
+}
+a.Bookmarked {
+   background: url('star_yellow.png') center center no-repeat;
+}
+a.Bookmarking {
+   background: url('star_blue.png') center center no-repeat;
+}
+ul.Discussion li.Options {
+   float: right;
+	height: 22px;
+	width: 120px;
+}
+ul.Options li.Parent strong {
+   display: block;
+   padding: 4px;
+   margin: 3px 4px 0 0;
+   font-family: Tahoma, 'Trebuchet MS', Arial, Verdana;
+   font-size: 10px;
+   font-weight: normal;
+   background: url('button_bg2.png') repeat-x center left #f8f8f8;
+   border: 1px solid #bbb;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   color: #555;
+   cursor: pointer;
+   line-height: 100%;
+}
+ul.Options li.Parent strong:hover {
+   color: #333;
+   border: 1px solid #888;
+}
+ul.Options li.Active strong:hover,
+ul.Options li.Active strong {
+   color: #fff;
+   background: #9c9c9c !important;
+   border: 1px solid #9c9c9c;
+   -moz-border-radius-bottomleft: 0;
+   -moz-border-radius-bottomright: 0;
+   -webkit-border-bottom-left-radius: 0;
+   -webkit-border-bottom-right-radius: 0;
+}
+ul.Options li {
+   float: right;
+}
+ul.Options li.Active {
+   background: none;
+}
+ul.Options li.Active ul {
+   border: 1px solid #9c9c9c;
+   background: #fafafa;
+   -moz-border-radius-bottomleft: 2px;
+   -moz-border-radius-bottomright: 2px;
+   -webkit-border-bottom-left-radius: 2px;
+   -webkit-border-bottom-right-radius: 2px;
+}
+ul.Options li.Active ul li a {
+   background: none;
+}
+ul.Options li.Active a {
+   background: #efefef;
+   color: #595959;
+}
+ul.Options li.Active a:hover {
+   background: #8d8d8d;
+   color: #fff;
+}
+
+
+/* =================================================================== Drafts */
+body.Drafts h1 {
+   margin: 0;
+}
+ul.Drafts li ul {
+   display: inline;
+}
+ul.Drafts li ul li.Title {
+   float: none;
+   width: auto;
+}
+ul.Drafts li ul li.Title strong {
+   float: left;
+   margin: 0 0 2px;
+}
+ul.Drafts li ul li.Title a.DraftCommentLink {
+   clear: left;
+   display: block;
+}
+ul.Drafts li ul li.Title a.DeleteDraft {
+   float: right;
+   width: auto;
+   padding: 4px;
+   margin: 3px 1px 0 0;
+   font-family: Tahoma, 'Trebuchet MS', Arial, Verdana;
+   font-size: 10px;
+   font-weight: normal;
+   background: url('button_bg2.png') repeat-x center left #f8f8f8;
+   border: 1px solid #bbb;
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   color: #555 /* Body Text Font Color */;
+   cursor: pointer;
+   line-height: 100%;
+}
+ul.Drafts li ul li.Topic a.DeleteDraft:hover {
+   color: #333;
+   border: 1px solid #888;
+}
+
+
+/* =============================================== Discussion & Comment Forms */
+#CommentForm {
+   background: #e9f9ff /* Panel Background Color */;
+   padding: 8px;
+}
+div.Popup #CommentForm {
+   background: none;
+   border: 0;
+   padding: 0;
+}
+#CommentForm h3 {
+   font-size: 115%;
+   color: #2786C2 /* Panel Font Color */;
+   font-weight: bold;
+}
+div.Popup #CommentForm h3 {
+   color: #000;
+}
+#CommentForm textarea {
+   width: 650px;
+   height: 100px;
+   min-height: 100px;
+   margin: 0 0 6px;
+}
+div.Popup #CommentForm textarea {
+   width: 470px;
+   max-height: 500px;
+}
+#CommentForm input.Button,
+#DiscussionForm input.Button {
+   margin-right: 6px;
+}
+body.Post #Panel {
+   display: none;
+}
+body.Post #Content {
+   width: auto;
+}
+body.Post #CommentForm,
+#DiscussionForm {
+   border: 0;
+   background: #daf4fd /* Panel Background Color */;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   padding: 8px 10px 10px;
+}
+body.Discussion #CommentForm h2,
+#DiscussionForm h2 {
+   font-size: 120%;
+   color: #2786c2;
+   border-bottom: 0;
+   line-height: 1;
+   padding: 0;
+   margin: 0 0 4px;
+}
+body.Post #CommentForm textarea,
+#DiscussionForm textarea {
+   width: 930px;
+   height: 100px;
+   min-height: 100px;
+   max-height: 400px;
+   margin: 0 0 6px;
+}
+#DiscussionForm input.InputBox {
+   width: 930px;
+   margin-bottom: 10px;
+}
+#DiscussionForm div.Category {
+   padding: 0 0 10px;   
+}
+#DiscussionForm div.Category label {
+   padding: 0 8px 0 0;
+}
+a.Cancel {
+   margin-left: 20px;
+}
+#DiscussionForm ul {
+   margin: 0 0 8px;
+}
+#DiscussionForm ul.PostOptions li {
+   display: inline;
+   padding: 0 8px 0 0;
+}
+#DiscussionForm ul.PostOptions label {
+   display: inline;
+   font-weight: normal;
+   font-size: 95%;
+   color: #555 /* Body Text Font Color */;
+}
